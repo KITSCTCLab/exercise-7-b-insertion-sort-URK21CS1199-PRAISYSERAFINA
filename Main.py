@@ -8,7 +8,7 @@ def insertionSort(array) -> List[int]:
         while j >= 0 and k < array[j] :
                 array[j + 1] = array[j]
                 j -= 1
-        array[j] = k
+        array[j+1] = k
   return array  
 
 # data = [9, 5, 1, 4, 3]
